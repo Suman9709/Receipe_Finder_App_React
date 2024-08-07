@@ -36,6 +36,9 @@ const RecipeList = () => {
           HandleSearchChange={HandleSearchChange}
           HandleFormSubmit={HandleFormSubmit} />
       </div>
+      <div className='flex justify-center mt-4 font-sans text-2xl p-4'>
+        <h1>Find Your Pizza Recipe Here...</h1>
+      </div>
       <div className="grid grid-cols-4 gap-4 p-4">
         {recipes.map((recipe) => (
           <a
